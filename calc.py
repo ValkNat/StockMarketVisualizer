@@ -23,6 +23,6 @@ dataframe.to_csv('data.csv', sep='\t')
 plt.plot(opens, timestamps)
 plt.xlabel("Time")
 plt.ylabel("Opens")
-plt.title("Open Time Series")
+plt.title(f"Open Time Series: {symbol}")
 plt.show()
 
